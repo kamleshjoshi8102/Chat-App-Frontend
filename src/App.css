@@ -1,0 +1,78 @@
+.body {
+  margin: 0;
+}
+
+/* We are using vw instead of vmax and all why??
+  Because when we open our phone then keyboard also opens and when it opens
+  the height will be reduced in terms of vmax and all 
+
+
+*/
+/* 700 px widht and 1000 px height */
+@media (max-aspect-ratio: 7/10) {
+  .JoinPage {
+    margin-top: 30vw;
+    display: flex-start !important;
+  }
+
+  .joinContainer {
+    width: 100% !important;
+    border: 2px solid white;
+  }
+  .JoinContainer > img {
+    width: 30vw !important;
+  }
+  .JoinContainer > h1 {
+    font-size: 6vw;
+    width: 55vw !important;
+    padding: 3vw !important;
+  }
+  #joinInput {
+    width: 65vw !important;
+    padding: 4vw !important;
+    font-size: 5vw !important;
+    margin: 5vw !important;
+  }
+  .joinbtn {
+    width: 65vw !important;
+    padding: 4vw !important;
+    font-size: 5vw !important;
+  }
+
+  .chatContainer {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .header {
+    height: 10% !important;
+  }
+  .header h2 {
+    margin: 8vw !important;
+    font-size: 5vw !important;
+  }
+  .header img {
+    margin: 6vw !important;
+    transform: scale(2) !important;
+  }
+  .header > img:hover {
+    transform: scale(3.2) !important;
+  }
+  .chatBox {
+    height: 80%;
+  }
+  .inputBox {
+    height: 10% !important;
+  }
+  #chatInput {
+    padding: 4vw !important;
+    font-size: 4vw !important;
+  }
+  .messageBox {
+    /* background-color: gainsboro; */
+    /* width: 70% !important; */
+    padding: 3vw !important;
+    margin: 3vw !important;
+    border-radius: 1.5vw !important;
+    font-size: 3.7vw;
+  }
+}
