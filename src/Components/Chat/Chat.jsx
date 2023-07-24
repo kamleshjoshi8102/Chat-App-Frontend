@@ -10,7 +10,7 @@ import closeIcon from "../images/closeIcon.png";
 
 let socket;
 
-const ENDPOINT = "https://server-zeta-ten.vercel.app/";
+const ENDPOINT = "https://chatapp-backend-h54z.onrender.com/";
 
 const Chat = () => {
   const [id, setId] = useState("");
